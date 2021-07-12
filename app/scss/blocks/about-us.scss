@@ -1,13 +1,13 @@
 //about-us
 .about-us {
     padding-top: 30px;
-    h2 {
-        text-align: center;
-        color: $primaryColor;
-        font-size: 44px;
-        font-weight: bold;
-    }
-    h4{
+    // h2 {
+    //     text-align: center;
+    //     color: $primaryColor;
+    //     font-size: 44px;
+    //     font-weight: bold;
+    // }
+    h4 {
         color: $primaryColor;
         font-size: 34px;
         font-weight: bold;
@@ -41,15 +41,15 @@
             margin-bottom: 40px;
         }
     }
-    .mobile__dark{
+    .mobile__dark {
         color: $secondaryColor;
-        svg{
+        svg {
             fill: $secondaryColor;
         }
     }
-    .mobile__green{
+    .mobile__green {
         color: #fff;
-        svg{
+        svg {
             fill: #fff;
         }
     }
@@ -62,15 +62,21 @@
     font-weight: 700;
 }
 
-
 @media (max-width: 575px) {
-    .about-us h4{
+    .about-us h4 {
         font-size: 28px;
     }
-    .advice__text{
+    .advice__text {
         padding: 60px 0;
     }
-    .problem__decision-section{
+    .problem__decision-section {
         padding-top: 30px;
     }
+}
+
+// dfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfjo
+.adoptogen {
+    padding: 30px 10px;
+    height: 100%;
+    background-color: $primaryColor;
 }

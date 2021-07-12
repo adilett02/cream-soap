@@ -1,24 +1,27 @@
 .form {
     padding: 100px 0;
-    h2 {
-        text-align: center;
-        color: $primaryColor;
-        font-size: 44px;
-        font-weight: bold;
-    }
+    // h2 {
+    //     text-align: center;
+    //     color: $primaryColor;
+    //     font-size: 44px;
+    //     font-weight: bold;
+    // }
     h5 {
-        color: $primaryColor;
+        color: $secondaryColor;
         font-weight: bold;
     }
     form {
         margin-top: 50px;
+    }
+    .order-btn {
+        background-color: $primaryColor;
     }
 }
 .form-group {
     position: relative;
     margin-bottom: 1rem;
     .form-control {
-        border: 1px solid $primaryColor;
+        border: 1px solid $secondaryColor;
         padding: 10px 20px;
         color: #000;
         border-radius: 0;
@@ -26,7 +29,7 @@
         &:focus {
             outline: none;
             box-shadow: none;
-            border: 1px solid $secondaryColor;
+            border: 1px solid $primaryColor;
         }
     }
     .focus-border {
