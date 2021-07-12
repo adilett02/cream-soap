@@ -191,7 +191,7 @@ nav {
         }
     }
     .icons__list {
-        margin-top: 50px;
+        margin-top: 35px;
         a {
             background-color: #fff;
             svg {
@@ -203,6 +203,14 @@ nav {
                     fill: #fff;
                 }
             }
+        }
+    }
+    .icons__item a {
+        width: 45px;
+        height: 45px;
+        svg {
+            width: 18px;
+            height: 18px;
         }
     }
 }
