@@ -76,7 +76,23 @@
 
 // dfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfjo
 .adoptogen {
-    padding: 30px 10px;
+    padding: 100px 0;
+    p {
+        text-align: center;
+        margin: 40px;
+    }
+}
+.adoptogen-item {
+    padding: 30px 20px;
     height: 100%;
-    background-color: $primaryColor;
+    background-color: #e1ccac;
+    border-radius: 50px;
+}
+.millions {
+    padding: 70px 0;
+    color: $primaryColor;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    background-color: $secondaryColor;
+    font-size: 20px;
 }
