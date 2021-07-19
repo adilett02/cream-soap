@@ -106,7 +106,54 @@ h2 {
 .animated {
     animation: 1s linear infinite alternate move-item;
 }
-
+.without {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.without__left {
+    position: relative;
+    margin-right: 100px;
+    span {
+        font-size: 60px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .line {
+        position: absolute;
+        width: 40px;
+        height: 1px;
+        background-color: #fff;
+        right: -40px;
+        &:first-child {
+            width: 74px;
+            top: 20px;
+            right: -80px;
+            transform: rotate(-20deg);
+        }
+        &:nth-child(2) {
+            top: 36px;
+            transform: rotate(-8deg);
+            width: 72px;
+            right: -82px;
+        }
+        &:nth-child(3) {
+            bottom: 36px;
+            transform: rotate(8deg);
+            width: 72px;
+            right: -82px;
+        }
+        &:nth-child(4) {
+            width: 74px;
+            right: -80px;
+            transform: rotate(20deg);
+            bottom: 20px;
+        }
+    }
+}
+.without__left {
+}
 @keyframes move-item {
     0% {
         transform: translateY(0px);
@@ -139,4 +186,6 @@ h2 {
     .banner p {
         padding: 0;
     }
+}
+@media (max-width: 359px) {
 }
