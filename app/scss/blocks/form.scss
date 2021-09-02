@@ -1,11 +1,5 @@
 .form {
     padding: 100px 0;
-    // h2 {
-    //     text-align: center;
-    //     color: $primaryColor;
-    //     font-size: 44px;
-    //     font-weight: bold;
-    // }
     h5 {
         color: $secondaryColor;
         font-weight: bold;
@@ -15,6 +9,9 @@
     }
     .order-btn {
         background-color: $primaryColor;
+    }
+    textarea {
+        resize: none;
     }
 }
 .form-group {
